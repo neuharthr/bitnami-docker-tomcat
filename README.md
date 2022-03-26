@@ -44,9 +44,9 @@ Non-root container images add an extra layer of security and are generally recom
 Learn more about the Bitnami tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://docs.bitnami.com/tutorials/understand-rolling-tags-containers/).
 
 
-* [`10`, `10-debian-10`, `10.0.18`, `10.0.18-debian-10-r2`, `latest` (10/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-tomcat/blob/10.0.18-debian-10-r2/10/debian-10/Dockerfile)
-* [`9.0`, `9.0-debian-10`, `9.0.60`, `9.0.60-debian-10-r2` (9.0/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-tomcat/blob/9.0.60-debian-10-r2/9.0/debian-10/Dockerfile)
-* [`8.5`, `8.5-debian-10`, `8.5.77`, `8.5.77-debian-10-r1` (8.5/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-tomcat/blob/8.5.77-debian-10-r1/8.5/debian-10/Dockerfile)
+* [`10`, `10-debian-10`, `10.0.18`, `10.0.18-debian-10-r12`, `latest` (10/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-tomcat/blob/10.0.18-debian-10-r12/10/debian-10/Dockerfile)
+* [`9.0`, `9.0-debian-10`, `9.0.60`, `9.0.60-debian-10-r13` (9.0/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-tomcat/blob/9.0.60-debian-10-r13/9.0/debian-10/Dockerfile)
+* [`8.5`, `8.5-debian-10`, `8.5.77`, `8.5.77-debian-10-r10` (8.5/debian-10/Dockerfile)](https://github.com/bitnami/bitnami-docker-tomcat/blob/8.5.77-debian-10-r10/8.5/debian-10/Dockerfile)
 
 Subscribe to project updates by watching the [bitnami/tomcat GitHub repo](https://github.com/bitnami/bitnami-docker-tomcat).
 
@@ -314,7 +314,7 @@ If you encountered a problem running this container, you can file an [issue](htt
 - Host OS and version
 - Docker version (`docker version`)
 - Output of `docker info`
-- Version of this container (`echo $BITNAMI_IMAGE_VERSION` inside the container)
+- Version of this container
 - The command you used to run the container, and any relevant output you saw (masking any sensitive information)
 
 ## License
